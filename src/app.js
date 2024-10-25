@@ -16,7 +16,7 @@ app.get("/", (req, res, next) => {
 	const msg = "test msg abc";
 	return res.status(200).json({
 		message: msg,
-		metadata: msg.repeat(1000000),
+		//metadata: msg.repeat(1000000),
 	});
 });
 
